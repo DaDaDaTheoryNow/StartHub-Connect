@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "522616480824",
+    "firebase_url": "https://starthub-connect-default-rtdb.firebaseio.com",
+    "project_id": "starthub-connect",
+    "storage_bucket": "starthub-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522616480824:android:3c48985c5fded43edf32cd",
+        "android_client_info": {
+          "package_name": "com.dadadadev.starthub_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUOQZc5W1rw533rLClK-4ufQuT9eGv7QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
