@@ -21,26 +21,32 @@ class MyBlogsPage extends GetView<BlogsController> {
                   return (index == controller.state.blogs.length - 1)
                       ? Column(
                           children: [
-                            Slidable(
-                                endActionPane: ActionPane(
-                                  motion: const ScrollMotion(),
-                                  children: [
-                                    SlidableAction(
-                                      flex: 2,
-                                      borderRadius: BorderRadius.circular(20.r),
-                                      onPressed: (_) {
-                                        controller.deleteFromBlogs(controller
-                                            .state.blogs[index].blogKey!);
-                                      },
-                                      backgroundColor: Colors.red,
-                                      foregroundColor: Colors.white,
-                                      icon: Icons.delete,
-                                      label: 'Delete',
-                                    ),
-                                  ],
-                                ),
-                                child: BlogWidget(
-                                    blog: controller.state.blogs[index])),
+                            Padding(
+                              padding: const EdgeInsets.all(2),
+                              child: Slidable(
+                                  endActionPane: ActionPane(
+                                    extentRatio: 1,
+                                    motion: const ScrollMotion(),
+                                    children: [
+                                      SlidableAction(
+                                        spacing: 6,
+                                        flex: 1,
+                                        borderRadius:
+                                            BorderRadius.circular(20.r),
+                                        onPressed: (_) {
+                                          controller.deleteFromBlogs(controller
+                                              .state.blogs[index].blogKey!);
+                                        },
+                                        backgroundColor: Colors.red,
+                                        foregroundColor: Colors.white,
+                                        icon: Icons.delete,
+                                        label: 'Delete',
+                                      ),
+                                    ],
+                                  ),
+                                  child: BlogWidget(
+                                      blog: controller.state.blogs[index])),
+                            ),
                             SizedBox(
                               height: 60.h,
                             )
