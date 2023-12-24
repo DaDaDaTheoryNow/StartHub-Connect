@@ -30,6 +30,11 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+/web/
+/windows/
+/linux/
+.metadata
+analysis_options.yaml
 
 # Symbolication related
 app.*.symbols
