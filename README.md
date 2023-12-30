@@ -20,6 +20,13 @@
 **Architecture**
 - Layered Architecture
 
+## Screenshots
+- #### Themed Chats
+![chats](https://github.com/DaDaDaTheoryNow/StartHub-Connect/assets/105795587/7767e9c5-5fa2-42d2-9621-59d7305fc344)
+
+- #### Create blogs and share your experiences!
+![blogs](https://github.com/DaDaDaTheoryNow/StartHub-Connect/assets/105795587/225eda7b-1722-4acb-b8e3-cdbfa124c1f7)
+
 ## Install
 
 ```sh
