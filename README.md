@@ -6,9 +6,9 @@
   </a>
 </p>
 
-## Technologies
 > In this project, I created a Smart Beds App for connecting with like-minded people and learning together in the world of IT
 
+## Technologies
 **Server**
 - Firebase (auth, database, storage)
 
